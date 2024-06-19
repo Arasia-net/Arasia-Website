@@ -40,4 +40,14 @@ function redirectToLink(url) {
 
 function webdiscordjs() { 
     window.open('https://discord.gg/UJ9WhWJ7gp');
-  }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const voteLink = document.querySelector(".votenv a");
+    voteLink.addEventListener("click", function(event) {
+        event.preventDefault();
+        const voteDiv = document.querySelector("#vote-div");
+        voteDiv.scrollIntoView({ behavior: "smooth" });
+    });
+});
+
