@@ -245,3 +245,24 @@
 .span-unterstuetzen:hover {
     color: white;
 }
+
+.mojangsec {
+    background-color: #000000;
+}
+
+.mojang-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mojang-inhalt p {
+    color: rgba(255, 255, 255, 0.619);
+    margin-bottom: 60px;
+    transition: color 0.15s ease-in-out;
+}
+
+.mojang-inhalt p:hover {
+    color: rgba(255, 255, 255, 0.81)
+}
