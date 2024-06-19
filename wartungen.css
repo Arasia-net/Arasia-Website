@@ -1,0 +1,100 @@
+.homesec2 {
+    position: relative;
+    background: rgb(10,27,10);
+    background: linear-gradient(180deg, rgba(10,27,10,1) 3%, rgba(0,0,0,1) 100%);
+    padding: 308.5px 100px;
+}
+
+.home-container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.home-inhalte2 h2 {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.home-inhalte2 p {
+    color: rgba(255, 255, 255, 0.81);
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+}
+
+.span-wartungen2,
+.span-wartungen1 {
+    background-color: #2e943336;
+    padding: 1px;
+    transition: color 0.15s ease-in-out;
+}
+
+.span-wartungen2:hover,
+.span-wartungen1:hover {
+    color: white;
+}
+
+body {
+    font-family: montserrat, sans-serif;
+}
+
+.navbar2 {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(10,27,10,1) 100%); 
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+    background-color: transparent;
+    margin: 0;
+    z-index: 2;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(255,255,255,.6);
+    font-size: 18px;
+}
+
+.navbar2 i {
+    margin-top: 30px;
+    color: rgba(255,255,255,.6);
+}
+
+.shopnv2 {
+    margin-top: 19px;
+    background-color: #98c29d8a;
+    padding: 8px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #98c29d76;
+}
+
+.statusnv2 a {
+    color: #fff;
+}
+
+.statusnv2 i {
+    color: #fff;
+}
+
+.shopnv2 a {
+    color: rgba(255, 255, 255, 0.887);
+}
+
+.forumnv2 a,
+.votenv2 a,
+.statusnv2 a,
+.homenv2 a {
+    margin-left: 8px;
+}
+
+.shopnv2 i {
+    margin: 0;
+    margin-right: 8px;
+    color: rgba(255, 255, 255, 0.887);
+}

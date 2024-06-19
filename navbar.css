@@ -1,0 +1,59 @@
+body {
+    font-family: montserrat, sans-serif;
+}
+
+.navbar {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(10,27,10,1) 100%); 
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+    background-color: transparent;
+    margin: 0;
+    z-index: 2;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(255,255,255,.6);
+    font-size: 18px;
+}
+
+.navbar i {
+    margin-top: 30px;
+    color: rgba(255,255,255,.6);
+}
+
+.shopnv {
+    margin-top: 19px;
+    background-color: #98c29d8a;
+    padding: 8px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #98c29d76;
+}
+
+.homespannav {
+    color: #fff;
+}
+
+.homenv i {
+    color: #fff;
+}
+
+.shopnv a {
+    color: rgba(255, 255, 255, 0.887);
+}
+
+.forumnv a,
+.votenv a,
+.statusnv a,
+.homenv a {
+    margin-left: 8px;
+}
+
+.shopnv i {
+    margin: 0;
+    margin-right: 8px;
+    color: rgba(255, 255, 255, 0.887);
+}

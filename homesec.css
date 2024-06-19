@@ -1,0 +1,136 @@
+.homesec {
+    position: relative;
+    background: rgb(10,27,10);
+    background: linear-gradient(180deg, rgba(10,27,10,1) 3%, rgba(0,0,0,1) 100%);
+    padding: 115px 100px;
+}
+
+.home-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.home-inhalte {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 6%;
+    margin-top: 2%;
+}
+
+.home-inhalte h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.home-inhalte p {
+    color: rgba(255, 255, 255, 0.673);
+    font-size: 13px;
+}
+
+.home-inhalt2 img {
+    z-index: 2;
+    width: 65%;
+    cursor: pointer;
+    animation: logoPulse 4s infinite;
+}
+
+@keyframes logoPulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.home-inhalt3 p, h3,
+.home-inhalt1 p, h3 {
+    margin: 0;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.play-icon,
+.discord-icon {
+    font-size: 24px;
+    margin-top: 10px;
+    color: rgba(255,255,255,.6);
+    transition: color 0.15s;
+}
+
+.discord-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discord-inhalt2 h3 {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.discord-inhalt2 p {
+    color: rgba(255, 255, 255, 0.81);
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.discordrender {
+    width: 70%;
+    margin-left: 70px;
+    margin-bottom: 45px;
+}
+
+.discord-button1 {
+    background-color: #3D888F;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.discord-button1:hover {
+    background-color: #31a1ab;
+}
+
+.span-dc3,
+.span-dc2,
+.span-dc1 {
+    background-color: #2e943336;
+    padding: 1px;
+    transition: color 0.15s ease-in-out;
+}
+
+.span-dc3:hover,
+.span-dc2:hover,
+.span-dc1:hover {
+    color: white;
+}

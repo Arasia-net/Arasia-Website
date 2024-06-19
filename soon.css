@@ -1,0 +1,151 @@
+.homesec3 {
+    position: relative;
+    background: rgb(10,27,10);
+    background: linear-gradient(180deg, rgba(10,27,10,1) 3%, rgba(0,0,0,1) 100%);
+    padding: 322px 100px;
+}
+
+.home-container3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.home-inhalte3 h2 {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.home-inhalte3 p {
+    color: rgba(255, 255, 255, 0.81);
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+}
+
+.span-wartungen2,
+.span-wartungen1 {
+    background-color: #2e943336;
+    padding: 1px;
+    transition: color 0.15s ease-in-out;
+}
+
+.span-wartungen2:hover,
+.span-wartungen1:hover {
+    color: white;
+}
+
+body {
+    font-family: montserrat, sans-serif;
+}
+
+.navbar3 {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(10,27,10,1) 100%); 
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+    background-color: transparent;
+    margin: 0;
+    z-index: 2;
+}
+
+.navbar3 a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(255,255,255,.6);
+    font-size: 18px;
+}
+
+.navbar3 i {
+    margin-top: 30px;
+    color: rgba(255,255,255,.6);
+}
+
+.shopnv3 {
+    margin-top: 19px;
+    background-color: #98c29d8a;
+    padding: 8px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #98c29d76;
+}
+
+.statusnv3 a {
+    color: #fff;
+}
+
+.statusnv3 i {
+    color: #fff;
+}
+
+.shopnv3 a {
+    color: rgba(255, 255, 255, 0.887);
+}
+
+.forumnv3 a,
+.votenv3 a,
+.statusnv3 a,
+.homenv3 a {
+    margin-left: 8px;
+}
+
+.shopnv3 i {
+    margin: 0;
+    margin-right: 8px;
+    color: rgba(255, 255, 255, 0.887);
+}
+
+.span-soon2,
+.span-soon1 {
+    background-color: #2e943336;
+    padding: 1px;
+    transition: color 0.15s ease-in-out;
+}
+
+.span-soon2:hover,
+.span-soon1:hover {
+    color: white;
+}
+
+.soon-discord {
+    color: #fff;
+    background-color: #98c29d8a;
+    border-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #98c29d8a;
+    transition: padding 0.3s;
+    margin-right: 15px;
+}
+
+.soon-discord:hover {
+    cursor: pointer;
+    padding: 13px 28px;
+}
+
+.soon-tiktok {
+    color: #fff;
+    background-color: #98c29d8a;
+    border-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #98c29d8a;
+    transition: padding 0.3s;
+}
+
+.soon-tiktok:hover {
+    cursor: pointer;
+    padding: 13px 28px;
+}
+
+.soon-buttons {
+    margin-top: 25px;
+}

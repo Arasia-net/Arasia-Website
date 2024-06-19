@@ -1,36 +1,152 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap"/>
+    <!---<link rel="stylesheet" href="blogsec.css">-->
+    <link rel="stylesheet" href="homesec.css">
+    <link rel="stylesheet" href="teamsec.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="soon.css">
+    <link rel="stylesheet" href="wartungen.css">
+    <link rel="stylesheet" href="footersec.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="homesection.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arasia.net 〢 Netzwerk</title>
 </head>
 <body>
-    <ul class="navbar-ul">
-        <div class="inputul">
-            <a href="#">Home</a>
-            <a href="#">Vote</a>
-            <a href="#">Shop</a>
-            <a href="#">Wiki</a>
-            <a href="#">Discord</a>
-        </div>
-    </ul>
-    
-    <section class="homesection">
+
+    <div class="navbar">
+        <div class="homenv"><i class="fas fa-home"></i><a href="/"><span class="homespannav">Home</span></a></div>
+        <div class="statusnv"><i class="fa-solid fa-gear"></i><a href="wartungen.html">Status</a></div>
+        <div class="shopnv"><i class="fa-solid fa-cart-shopping"></i><a href="soon.html">Shop</a></div>
+        <div class="forumnv"><i class="fa-solid fa-folder-open"></i><a href="soon.html">Wiki</a></div>
+        <div class="votenv"><i class="fa-solid fa-share-from-square"></i><a href="soon.html">Vote</a></div>
+    </div>
+
+    <section id="home" class="homesec">
+
         <div class="home-container">
-            <div class="home-input">
-                <img class="homelogo" src="/images/logoplaceholder2.png">
-                <h2>Arasia.net</h2>
-                <p>Derzeit sind wir mitten in der Entwicklungsphase!<br>Wir freuen uns euch bald unser Projekt vorstellen zu können.</p>
-                <button class="homeshopbutton">Unser Shop</button>
+            <div class="home-content">
+                <div class="home-inhalte">
+                    <div class="home-inhalt1" onclick="copyToClipboard(); showPopup();">
+                        <h3>18471 SPIELER ONLINE</h3>
+                        <p>ARASIA.NET</p>
+                        <div class="play-icon"><i class="fas fa-play"></i></div>
+                    </div>
+                    <div class="home-inhalt2">
+                        <div class="overlay-after-navbar"></div>
+                        <img src="/images/mcicon.webp" onclick="redirectToLink('/')">
+                    </div>                
+                    <div class="home-inhalt3" onclick="webdiscordjs()">
+                        <h3>545 USER ONLINE</h3>
+                        <p>DISCORD.GG/UJ9WHWJ7GP</p>
+                        <div class="discord-icon"><i class="fab fa-discord"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-container">
+            <div class="team-inhalte">
+                <h2>Unser Team</h2>
+                <p>Bekomme ein Einblick zu den <span class="span-team">wichtigsten Personen</span> Arasia's!</p>
+            </div>
+            <div class="slideshows">
+                <div class="slideshow1">
+                </div>
+                <div class="slideshow2">
+                    <!--<img class="owner1" src="">-->
+                </div>
+            </div>
+        </div>
+
+        <div class="discord-div">
+            <div class="discord-container">
+                <div class="discord-inhalt1">
+                    <img class="discordrender" src="/images/Minecraft_Pig_With_Cake_Sticker_-_Sticker_Mania-removebg-preview.png">
+                </div>
+                <div class="discord-inhalt2">
+                    <h3>Mitspieler Gesucht?</h3>
+                    <p>Wir bei Arasia denken, dass Kommunikation der<br> Schlüssel zu einer <span class="span-dc1">großartigen Community</span> ist.<br> Aus diesem Grund schätzen wir unseren Discord<br> sehr und die <span class="span-dc2">Art und Weise</span>, wie er uns ermöglicht,<br> mit unseren Lieblingsmenschen überhaupt in<br> Kontakt zu treten – Euch! Kommt gerne zu uns und<br> lasst uns gemeinsam unseren <span class="span-dc3">Ursprung</span> schaffen!</p>
+                    <button onclick="webdiscordjs()" class="discord-button1">JOINE DEM DISCORD</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--<section id="blogs" class="blogsec">
+        <div class="blog-container">
+            <div class="blog-inhalte">
+                <div class="blog1">
+                    <img src="/images/blog1.jpg">
+                    <div class="blog-text">
+                        <h3>Example | Post #1</h3>
+                        <p>Hello! Our current Main Lobby has been in use since 2017,<br> and today we're giving it a fresh new look along with<br> plenty of new things to do! Our lobby hasn't gotten a fresh<br> look since 2017 so we decided to go all out and give it a<br> complete...</p>
+                    </div>
+                </div>
+                <div class="blog2">
+                    <img src="/images/bgblock2.jpg">
+                    <div class="blog-text">
+                        <h3>Example | Post #2</h3>
+                        <p>Hello! Our current Main Lobby has been in use since 2017,<br> and today we're giving it a fresh new look along with<br> plenty of new things to do! Our lobby hasn't gotten a fresh<br> look since 2017 so we decided to go all out and give it a<br> complete...</p>
+                    </div>
+                </div>
+                <div class="blog3">
+                    <img src="/images/bgblock3.jpg">
+                    <div class="blog-text">
+                        <h3>Example | Post #3</h3>
+                        <p>Hello! Our current Main Lobby has been in use since 2017,<br> and today we're giving it a fresh new look along with<br> plenty of new things to do! Our lobby hasn't gotten a fresh<br> look since 2017 so we decided to go all out and give it a<br> complete...</p>
+                    </div>
+                </div>
+                <ul class="pagecontuine">
+                    <li class="back">«</li>
+                    <li class="nowside">1</li>
+                    <li class="up">»</li>
+                </ul>
+            </div>
+        </div>
+    </section>-->
+
+    <section id="footer" class="footersec">
+        <div class="footer-container">
+            <div class="footer-inhalte">
+                <div class="playnow">
+                    <h3>Spiele Jetzt <span class="minus1">✔</span></h3>
+                    <p>Starte heute dein Abenteuer! Joine unserem Server<br> und spiele Survival, SkyWars und mehr!</p>
+                    <button onclick="copyToClipboard(); showPopup();">ARASIA.NET</button>
+                </div>
+            
+                <div id="overlay" onclick="closePopup()"></div>
+            
+                <div id="popup">
+                    <h3>IP Kopiert!</h3>
+                    <p>Joine nun unserem Server!</p>
+                    <button onclick="closePopup()">Close</button>
+                </div>
+
+                <div class="links">
+                    <h3>Links <span class="minus1">✔</span></h3>
+                    <li>Terms and Conditions </li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Notice</li>
+                    <li>Made by <span id="heart" onclick="replaceWithText()">❤</span></li>
+                </div>
+
+                <div class="shop">
+                    <h3>Shop <span class="minus1">✔</span></h3>
+                    <p>Besuche unseren Shop um Ränge, Crate Keys<br> und mehr zu kaufen!</p>
+                    <button>Kauf Jetzt <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
             </div>
         </div>
     </section>
+
+    <script src="/main.js"></script>
+    <script src="https://kit.fontawesome.com/07d9905d00.js" crossorigin="anonymous"></script>
 </body>
 </html>
