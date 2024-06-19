@@ -84,6 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .discord-inhalt2 h3 {
@@ -113,6 +114,7 @@
     color: white;
     font-size: 16px;
     font-weight: bold;
+    box-shadow: 0 0 5px 0 #3D888F;
     cursor: pointer;
     transition: background-color 0.15s ease-in-out;
 }
@@ -132,5 +134,114 @@
 .span-dc3:hover,
 .span-dc2:hover,
 .span-dc1:hover {
+    color: white;
+}
+
+.vote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vote-inhalt1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.vote-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+.vote-buttons button {
+    margin-bottom: 10px;
+}
+
+.vote-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.vote-inhalt1 h3 {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.unterh3 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.vote-inhalt1 p {
+    color: rgba(255, 255, 255, 0.81);
+    line-height: 27px;
+    margin-top: 0;
+}
+
+.votebutton1 {
+    padding: 25px 23px;
+    background: #98c29d8a; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #98c29d76;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.votebutton2 {
+    padding: 25px 22px;
+    background: #98c29d8a; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #98c29d76;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 5px;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.votebutton1:hover,
+.votebutton2:hover {
+    background-color: #98c29da9; 
+}
+
+.span-belohnung {
+    color: #98c29d;
+    font-weight: bold;
+}
+
+.span-restbeohnung {
+    color: rgba(255, 255, 255, 0.619);
+}
+
+.span-strich {
+    color: rgba(255, 255, 255, 0.619);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.span-belohnung2,
+.span-unterstuetzen {
+    background-color: #2e943336;
+    padding: 1px;
+    transition: color 0.15s ease-in-out;
+}
+
+.span-belohnung2:hover,
+.span-unterstuetzen:hover {
     color: white;
 }
